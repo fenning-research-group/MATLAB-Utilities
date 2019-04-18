@@ -1,4 +1,3 @@
-function csvwriteh( filename, data, header )
 %CVSWRITEH write matrix to a csv file with header
 % CVSWRITEH( FILENAME, DATA, HEADER )
 % function to write a csvfile with a header
@@ -6,6 +5,8 @@ function csvwriteh( filename, data, header )
 %   FILENAME: filename for csv output file
 %   DATA:     matrix with data for csv file
 %   HEADER:   cell array with names per column
+
+function csvwriteh( filename, data, header )
 
 %% check parameters
 % filename parameter
