@@ -10,6 +10,8 @@
 %
 %   [linedata, linetitles] = getcurves(my_axis_handle)   %Pulls all line
 %   data and titles from axis object specified by "my_axis_handle"
+%
+% Rishi Kumar 2019-04-15
 
 function [curves, legend_values]  = getcurves(hax)
 

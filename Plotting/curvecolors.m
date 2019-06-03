@@ -1,4 +1,6 @@
-
+%% curvecolors.m
+%
+%  Color series
 
 function curvecolors
 %     clc;
